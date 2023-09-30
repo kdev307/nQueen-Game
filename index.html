@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>N-Queen Game</title>
+    
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="img/queenOG.gif" type="image/x-icon" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nabla&family=VT323&display=swap" rel="stylesheet">
+
+       <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+</head>
+<body>
+    <header class="head"><h1>N-Queen Game</h1></header>
+    <section class="main">
+      <div class="board">
+        <div class="game-board">
+          <table>
+            <script src="script.js"></script>
+          </table>
+          <br><br>
+          <div class="btn">
+            <button onclick="displayInfo()" class="buttons"><ion-icon name="information-outline" class="icons"></ion-icon></button>
+            <button onclick="clearBoard()" class="buttons"><ion-icon name="trash-outline" class="icons"></ion-icon></button>
+            <button onclick="help()" class="buttons"><ion-icon name="bulb-outline" class="icons"></ion-icon></button>
+            <button onclick="window.location.reload()" class="buttons"><ion-icon name="refresh-outline" class="icons"></ion-icon></button>
+          </div>
+        </div>
+      </div>
+      <br><br>
+      <div class="rules" id="inf">
+            <h3>Important Instructions</h3>
+            <ul>
+                <li class="rule">Enter the size of the grid in the pop-up that appeared. If not done Kindly refresh the page.</li></br>
+                <li class="rule">The user must arrange chess queens on a N x N grid in such a manner so that no two queens threaten one other; as a result, no two queens must share the same row, column, or diagonal. </li></br>
+                <li class="rule">Click on the given cell to mark where the Queen you want to place.</li></br>
+                <li class="rule">If your want to clear the grid, just press <ion-icon name="trash-outline" class="icons"></ion-icon>.</li></br>
+                <li class="rule">If you want to see the solution, just press <ion-icon name="bulb-outline" class="icons"></ion-icon>.</li></br>
+                <li class="rule">If you want to change the grid size, just refresh the page and enter new size in the pop-up box or press <ion-icon name="refresh-outline" class="icons"></ion-icon>.</li></br>
+                <li class="rule">If you win a pop will appear saying you WON, else you can retry to solve the puzzle.</li></br>
+            </ul>
+        </div>
+    </section>
+  </body>
+</html>

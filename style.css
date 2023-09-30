@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #cb6262;
+  background: linear-gradient(to right, #e2e292, #ef7b7b);
+}
+
+html {
+  font-size: 62.5%;
+}
+table,
+tr,
+td {
+  border: 0.5rem solid black;
+  padding: 0.375rem 0.5rem;
+  border-collapse: collapse;
+}
+
+.head {
+  font-family: "Nabla", fantasy;
+  font-size: 4.5rem;
+  font-weight: 700;
+  font-style: italic;
+  justify-content: center;
+  text-align: center;
+}
+
+.main {
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+}
+
+.rules {
+  margin: 2rem 10rem 0rem 2rem;
+  font-family: "VT323", sans-serif;
+  margin: 2rem 10rem 0rem 2rem;
+}
+
+#inf {
+  display: none;
+}
+
+h2,
+.rules h3 {
+  font-size: 4rem;
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 3rem;
+}
+
+.rule {
+  list-style: disc;
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.board {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.game-board {
+  margin: 0 auto;
+  align-items: center;
+  justify-items: center;
+}
+
+.game-board > table {
+  width: max-content;
+  margin: 0 auto;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.icons {
+  font-size: 3rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 800;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  gap: 1.75rem;
+  padding: 0.625rem;
+}
+
+.buttons {
+  width: 4.8rem;
+  height: 4.8rem;
+  background-color: #000000;
+  color: #ffbebe;
+  /* background-color: #eac0c0; */
+  margin-left: 1rem;
+  padding: 0.35rem;
+  /* background-color: #ffbebe; */
+  border-radius: 50%;
+  box-shadow: 0.4rem 0.4rem 0.8rem #242425;
+  /* color: #000000; */
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: 14px;
+  text-transform: capitalize;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+
+.buttons:hover {
+  box-shadow: inset 4px 4px 6px #f0aaaa, inset -3px -3px 6px #fafaaf;
+}
